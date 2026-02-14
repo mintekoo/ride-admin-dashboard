@@ -52,8 +52,17 @@ Each theme follows the 60/30/10 color rule for optimal visual hierarchy and cons
    ```bash
    npm install
    ```
+3. **.env File**
 
-3. **Start development server**
+   Create a `.env` file in the project root and add:
+
+   ```env
+   VITE_AUTHENTICATION_BACKEND_API=https://api.example.com/auth
+   VITE_BOOKING_BACKEND_API=https://api.example.com/bookings/v1
+   ```
+   
+
+4. **Start development server**
    ```bash
    npm run dev
    ```
